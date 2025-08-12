@@ -1,2 +1,6 @@
-# Whire-Music-Player
-### Does it annoy you that the music player takes too long to start? I present to your attention the Whire Music Player! This music player is very fast, and you won't even need time to start and loading music.
+# Whire Music Player - Source Code
+- Version: 0.1.2 (Alpha)
+- Core Version: 0.1.1
+## Requirements
+- Clickteam Fusion 2.5 (Build R295.10) or higher
+- Clickteam Fusion 2.5+
