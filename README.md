@@ -1,5 +1,5 @@
 # Whire Music Player - Source Code
-- Version: 0.1.5
+- Version: 0.1.6
 - Core Version: v0.1.6
 - Discord Rich Presence Version: v1.2.2
 - SteamWorks Version: 2
