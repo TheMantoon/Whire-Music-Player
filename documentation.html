@@ -1,1 +1,91 @@
-﻿<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body><h2 style="text-align:center;mso-pagination:widow-orphan lines-together;page-break-after:avoid;margin-top:24.000000000000004pt;margin-bottom:10pt;border:none;border-left:none;border-top:none;border-right:none;border-bottom:none;mso-border-between:none"><span style="font-family:'Arial';font-size:18pt;color:#000000;mso-style-textfill-fill-color:#000000"><b>Whire Music Player Documentation</b></span></h2></body></html>
+﻿<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Whire Music Player Documentation</title>
+  <style>
+    :root{--bg:#f6f8fb;--card:#ffffff;--accent:#2563eb;--muted:#6b7280;--radius:12px}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, Roboto, Arial, sans-serif;background:var(--bg);color:#0f172a}
+    header{background:linear-gradient(90deg,#0ea5e9 0%, #7c3aed 100%);color:white;padding:36px 20px;border-radius:0 0 24px 24px}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .site-title{display:flex;align-items:center;gap:16px}
+    .logo{width:56px;height:56px;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;border-radius:10px;font-weight:700}
+    h1{margin:0;font-size:24px}
+    p.lead{margin:8px 0 0;color:rgba(255,255,255,0.9)}
+
+    main{margin-top:28px}
+    .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    .search{flex:1;min-width:220px}
+    .search input{width:100%;padding:10px 12px;border-radius:10px;border:0;outline:none}
+
+    .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;margin-top:22px}
+    .card{background:var(--card);border-radius:var(--radius);padding:16px;box-shadow:0 6px 18px rgba(15,23,42,0.06);display:flex;flex-direction:column;gap:12px}
+    .thumb{height:140px;border-radius:10px;background:linear-gradient(135deg,#f0f9ff,#eef2ff);display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:600}
+    .card h3{margin:0;font-size:18px}
+    .meta{font-size:13px;color:var(--muted)}
+    .tags{display:flex;gap:8px;flex-wrap:wrap}
+    .tag{font-size:12px;padding:6px 8px;border-radius:999px;background:#f3f4f6;color:#111827}
+    .card .actions{margin-top:auto;display:flex;gap:8px}
+    .btn{padding:8px 12px;border-radius:10px;border:0;cursor:pointer;font-weight:600}
+    .btn.primary{background:var(--accent);color:white}
+    .btn.ghost{background:transparent;border:1px solid #e6e9ef}
+
+    footer{margin-top:36px;padding:24px 0;color:var(--muted);text-align:center}
+
+    @media (max-width:600px){header{padding:20px} .logo{width:44px;height:44px} h1{font-size:20px}}
+    .photo-card{position:relative;overflow:hidden;padding:0;height:220px;border-radius:16px;cursor:pointer;transition:transform .35s ease, box-shadow .35s ease}
+  .photo-card:hover{transform:translateY(-6px) scale(1.02);box-shadow:0 12px 28px rgba(15,23,42,0.18)}
+  .photo-card .photo{position:absolute;inset:0;background-size:cover;background-position:center;transition: transform .6s ease}
+  .photo-card:hover .photo{transform:scale(1.08)}
+  .photo-card .photo-title{position:absolute;left:16px;bottom:16px;margin:0;font-size:20px;font-weight:700;color:white;text-shadow:0 2px 6px rgba(0,0,0,0.45)}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="site-title">
+        
+        <div>
+          <h1>Whire Music Player Documentation</h1>
+          <p class="lead">Карточки с помощью</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="cards" aria-label="Как пользоваться?">
+<article class="card photo-card">
+  <div class="photo" style="background-image:url('assets/img/fl.png');"></div>
+  <h3 class="photo-title">Вкладка File</h3>
+</article>
+
+<article class="card photo-card">
+  <div class="photo" style="background-image:url('assets/img/plbck.png');"></div>
+  <h3 class="photo-title">Вкладка Playback</h3>
+</article>
+
+<article class="card photo-card">
+  <div class="photo" style="background-image:url('assets/img/hlp.png');"></div>
+  <h3 class="photo-title">Вкладка Help</h3>
+</article>
+
+<article class="card photo-card">
+  <div class="photo" style="background-image:url('assets/img/vlm.png');"></div>
+  <h3 class="photo-title">Изменение громкости</h3>
+</article>
+
+
+</section>
+
+    <footer>
+      <div style="max-width:900px;margin:0 auto;padding:24px;border-radius:16px;background:#ffffffcc;backdrop-box-shadow:0 6px 18px rgba(15,23,42,0.08);border:1px solid #e5e7eb">
+        <small style="font-size:14px;color:#4b5563;display:block;text-align:center;letter-spacing:0.3px">
+          Copyright © WhireDeveloper 2025
+        </small>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
